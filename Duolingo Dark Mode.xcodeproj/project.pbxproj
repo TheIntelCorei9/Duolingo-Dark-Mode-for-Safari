@@ -1,0 +1,933 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12E7C1D929E97D0000FCAD32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E7C1D829E97D0000FCAD32 /* AppDelegate.swift */; };
+		12E7C1DB29E97D0000FCAD32 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E7C1DA29E97D0000FCAD32 /* SceneDelegate.swift */; };
+		12E7C1DE29E97D0000FCAD32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12E7C1DC29E97D0000FCAD32 /* LaunchScreen.storyboard */; };
+		12E7C1E129E97D0000FCAD32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12E7C1DF29E97D0000FCAD32 /* Main.storyboard */; };
+		12E7C1EA29E97D0000FCAD32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E7C1E929E97D0000FCAD32 /* AppDelegate.swift */; };
+		12E7C1ED29E97D0000FCAD32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12E7C1EB29E97D0000FCAD32 /* Main.storyboard */; };
+		12E7C1F529E97D0000FCAD32 /* Duolingo Dark Mode Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 12E7C1F429E97D0000FCAD32 /* Duolingo Dark Mode Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		12E7C1FF29E97D0000FCAD32 /* Duolingo Dark Mode Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 12E7C1FE29E97D0000FCAD32 /* Duolingo Dark Mode Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		12E7C20529E97D0000FCAD32 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 12E7C1C829E97CFF00FCAD32 /* Main.html */; };
+		12E7C20629E97D0000FCAD32 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 12E7C1C829E97CFF00FCAD32 /* Main.html */; };
+		12E7C20729E97D0000FCAD32 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E7C1CA29E97CFF00FCAD32 /* Icon.png */; };
+		12E7C20829E97D0000FCAD32 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E7C1CA29E97CFF00FCAD32 /* Icon.png */; };
+		12E7C20929E97D0000FCAD32 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 12E7C1CB29E97CFF00FCAD32 /* Style.css */; };
+		12E7C20A29E97D0000FCAD32 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 12E7C1CB29E97CFF00FCAD32 /* Style.css */; };
+		12E7C20B29E97D0000FCAD32 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 12E7C1CC29E97CFF00FCAD32 /* Script.js */; };
+		12E7C20C29E97D0000FCAD32 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 12E7C1CC29E97CFF00FCAD32 /* Script.js */; };
+		12E7C20D29E97D0000FCAD32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E7C1CD29E97CFF00FCAD32 /* ViewController.swift */; };
+		12E7C20E29E97D0000FCAD32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E7C1CD29E97CFF00FCAD32 /* ViewController.swift */; };
+		12E7C20F29E97D0000FCAD32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12E7C1CE29E97D0000FCAD32 /* Assets.xcassets */; };
+		12E7C21029E97D0000FCAD32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12E7C1CE29E97D0000FCAD32 /* Assets.xcassets */; };
+		12E7C21129E97D0000FCAD32 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E7C1D029E97D0000FCAD32 /* SafariWebExtensionHandler.swift */; };
+		12E7C21229E97D0000FCAD32 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E7C1D029E97D0000FCAD32 /* SafariWebExtensionHandler.swift */; };
+		12E7C22729E97D0000FCAD32 /* styles.css in Resources */ = {isa = PBXBuildFile; fileRef = 12E7C22429E97D0000FCAD32 /* styles.css */; };
+		12E7C22829E97D0000FCAD32 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 12E7C22529E97D0000FCAD32 /* manifest.json */; };
+		12E7C22929E97D0000FCAD32 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 12E7C22629E97D0000FCAD32 /* content.js */; };
+		12E7C22A29E97D0000FCAD32 /* styles.css in Resources */ = {isa = PBXBuildFile; fileRef = 12E7C22429E97D0000FCAD32 /* styles.css */; };
+		12E7C22B29E97D0000FCAD32 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 12E7C22529E97D0000FCAD32 /* manifest.json */; };
+		12E7C22C29E97D0000FCAD32 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 12E7C22629E97D0000FCAD32 /* content.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12E7C1F629E97D0000FCAD32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12E7C1C229E97CFF00FCAD32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12E7C1F329E97D0000FCAD32;
+			remoteInfo = "Duolingo Dark Mode Extension (iOS)";
+		};
+		12E7C20029E97D0000FCAD32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12E7C1C229E97CFF00FCAD32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12E7C1FD29E97D0000FCAD32;
+			remoteInfo = "Duolingo Dark Mode Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		12E7C21829E97D0000FCAD32 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				12E7C1F529E97D0000FCAD32 /* Duolingo Dark Mode Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12E7C21F29E97D0000FCAD32 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				12E7C1FF29E97D0000FCAD32 /* Duolingo Dark Mode Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		12E7C1C929E97CFF00FCAD32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		12E7C1CA29E97CFF00FCAD32 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		12E7C1CB29E97CFF00FCAD32 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		12E7C1CC29E97CFF00FCAD32 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		12E7C1CD29E97CFF00FCAD32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		12E7C1CE29E97D0000FCAD32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12E7C1D029E97D0000FCAD32 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		12E7C1D529E97D0000FCAD32 /* Duolingo Dark Mode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Duolingo Dark Mode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12E7C1D829E97D0000FCAD32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		12E7C1DA29E97D0000FCAD32 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		12E7C1DD29E97D0000FCAD32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		12E7C1E029E97D0000FCAD32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12E7C1E229E97D0000FCAD32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12E7C1E729E97D0000FCAD32 /* Duolingo Dark Mode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Duolingo Dark Mode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12E7C1E929E97D0000FCAD32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		12E7C1EC29E97D0000FCAD32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12E7C1EE29E97D0000FCAD32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12E7C1EF29E97D0000FCAD32 /* Duolingo Dark Mode.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Duolingo Dark Mode.entitlements"; sourceTree = "<group>"; };
+		12E7C1F429E97D0000FCAD32 /* Duolingo Dark Mode Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Duolingo Dark Mode Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12E7C1F929E97D0000FCAD32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12E7C1FE29E97D0000FCAD32 /* Duolingo Dark Mode Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Duolingo Dark Mode Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12E7C20329E97D0000FCAD32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12E7C20429E97D0000FCAD32 /* Duolingo Dark Mode.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Duolingo Dark Mode.entitlements"; sourceTree = "<group>"; };
+		12E7C22429E97D0000FCAD32 /* styles.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = styles.css; path = "../../Downloads/DuoDarkmode-main/styles.css"; sourceTree = "<group>"; };
+		12E7C22529E97D0000FCAD32 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = "../../Downloads/DuoDarkmode-main/manifest.json"; sourceTree = "<group>"; };
+		12E7C22629E97D0000FCAD32 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = "../../Downloads/DuoDarkmode-main/content.js"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12E7C1D229E97D0000FCAD32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12E7C1E429E97D0000FCAD32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12E7C1F129E97D0000FCAD32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12E7C1FB29E97D0000FCAD32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12E7C1C129E97CFF00FCAD32 = {
+			isa = PBXGroup;
+			children = (
+				12E7C1C629E97CFF00FCAD32 /* Shared (App) */,
+				12E7C1CF29E97D0000FCAD32 /* Shared (Extension) */,
+				12E7C1D729E97D0000FCAD32 /* iOS (App) */,
+				12E7C1E829E97D0000FCAD32 /* macOS (App) */,
+				12E7C1F829E97D0000FCAD32 /* iOS (Extension) */,
+				12E7C20229E97D0000FCAD32 /* macOS (Extension) */,
+				12E7C1D629E97D0000FCAD32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12E7C1C629E97CFF00FCAD32 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				12E7C1CD29E97CFF00FCAD32 /* ViewController.swift */,
+				12E7C1CE29E97D0000FCAD32 /* Assets.xcassets */,
+				12E7C1C729E97CFF00FCAD32 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		12E7C1C729E97CFF00FCAD32 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				12E7C1C829E97CFF00FCAD32 /* Main.html */,
+				12E7C1CA29E97CFF00FCAD32 /* Icon.png */,
+				12E7C1CB29E97CFF00FCAD32 /* Style.css */,
+				12E7C1CC29E97CFF00FCAD32 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		12E7C1CF29E97D0000FCAD32 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				12E7C22329E97D0000FCAD32 /* Resources */,
+				12E7C1D029E97D0000FCAD32 /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		12E7C1D629E97D0000FCAD32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12E7C1D529E97D0000FCAD32 /* Duolingo Dark Mode.app */,
+				12E7C1E729E97D0000FCAD32 /* Duolingo Dark Mode.app */,
+				12E7C1F429E97D0000FCAD32 /* Duolingo Dark Mode Extension.appex */,
+				12E7C1FE29E97D0000FCAD32 /* Duolingo Dark Mode Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12E7C1D729E97D0000FCAD32 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				12E7C1D829E97D0000FCAD32 /* AppDelegate.swift */,
+				12E7C1DA29E97D0000FCAD32 /* SceneDelegate.swift */,
+				12E7C1DC29E97D0000FCAD32 /* LaunchScreen.storyboard */,
+				12E7C1DF29E97D0000FCAD32 /* Main.storyboard */,
+				12E7C1E229E97D0000FCAD32 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		12E7C1E829E97D0000FCAD32 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				12E7C1E929E97D0000FCAD32 /* AppDelegate.swift */,
+				12E7C1EB29E97D0000FCAD32 /* Main.storyboard */,
+				12E7C1EE29E97D0000FCAD32 /* Info.plist */,
+				12E7C1EF29E97D0000FCAD32 /* Duolingo Dark Mode.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		12E7C1F829E97D0000FCAD32 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				12E7C1F929E97D0000FCAD32 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		12E7C20229E97D0000FCAD32 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				12E7C20329E97D0000FCAD32 /* Info.plist */,
+				12E7C20429E97D0000FCAD32 /* Duolingo Dark Mode.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		12E7C22329E97D0000FCAD32 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				12E7C22429E97D0000FCAD32 /* styles.css */,
+				12E7C22529E97D0000FCAD32 /* manifest.json */,
+				12E7C22629E97D0000FCAD32 /* content.js */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12E7C1D429E97D0000FCAD32 /* Duolingo Dark Mode (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12E7C21929E97D0000FCAD32 /* Build configuration list for PBXNativeTarget "Duolingo Dark Mode (iOS)" */;
+			buildPhases = (
+				12E7C1D129E97D0000FCAD32 /* Sources */,
+				12E7C1D229E97D0000FCAD32 /* Frameworks */,
+				12E7C1D329E97D0000FCAD32 /* Resources */,
+				12E7C21829E97D0000FCAD32 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12E7C1F729E97D0000FCAD32 /* PBXTargetDependency */,
+			);
+			name = "Duolingo Dark Mode (iOS)";
+			productName = "Duolingo Dark Mode (iOS)";
+			productReference = 12E7C1D529E97D0000FCAD32 /* Duolingo Dark Mode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12E7C1E629E97D0000FCAD32 /* Duolingo Dark Mode (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12E7C22029E97D0000FCAD32 /* Build configuration list for PBXNativeTarget "Duolingo Dark Mode (macOS)" */;
+			buildPhases = (
+				12E7C1E329E97D0000FCAD32 /* Sources */,
+				12E7C1E429E97D0000FCAD32 /* Frameworks */,
+				12E7C1E529E97D0000FCAD32 /* Resources */,
+				12E7C21F29E97D0000FCAD32 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12E7C20129E97D0000FCAD32 /* PBXTargetDependency */,
+			);
+			name = "Duolingo Dark Mode (macOS)";
+			productName = "Duolingo Dark Mode (macOS)";
+			productReference = 12E7C1E729E97D0000FCAD32 /* Duolingo Dark Mode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12E7C1F329E97D0000FCAD32 /* Duolingo Dark Mode Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12E7C21529E97D0000FCAD32 /* Build configuration list for PBXNativeTarget "Duolingo Dark Mode Extension (iOS)" */;
+			buildPhases = (
+				12E7C1F029E97D0000FCAD32 /* Sources */,
+				12E7C1F129E97D0000FCAD32 /* Frameworks */,
+				12E7C1F229E97D0000FCAD32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Duolingo Dark Mode Extension (iOS)";
+			productName = "Duolingo Dark Mode Extension (iOS)";
+			productReference = 12E7C1F429E97D0000FCAD32 /* Duolingo Dark Mode Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		12E7C1FD29E97D0000FCAD32 /* Duolingo Dark Mode Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12E7C21C29E97D0000FCAD32 /* Build configuration list for PBXNativeTarget "Duolingo Dark Mode Extension (macOS)" */;
+			buildPhases = (
+				12E7C1FA29E97D0000FCAD32 /* Sources */,
+				12E7C1FB29E97D0000FCAD32 /* Frameworks */,
+				12E7C1FC29E97D0000FCAD32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Duolingo Dark Mode Extension (macOS)";
+			productName = "Duolingo Dark Mode Extension (macOS)";
+			productReference = 12E7C1FE29E97D0000FCAD32 /* Duolingo Dark Mode Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12E7C1C229E97CFF00FCAD32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					12E7C1D429E97D0000FCAD32 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					12E7C1E629E97D0000FCAD32 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					12E7C1F329E97D0000FCAD32 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					12E7C1FD29E97D0000FCAD32 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 12E7C1C529E97CFF00FCAD32 /* Build configuration list for PBXProject "Duolingo Dark Mode" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12E7C1C129E97CFF00FCAD32;
+			productRefGroup = 12E7C1D629E97D0000FCAD32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12E7C1D429E97D0000FCAD32 /* Duolingo Dark Mode (iOS) */,
+				12E7C1E629E97D0000FCAD32 /* Duolingo Dark Mode (macOS) */,
+				12E7C1F329E97D0000FCAD32 /* Duolingo Dark Mode Extension (iOS) */,
+				12E7C1FD29E97D0000FCAD32 /* Duolingo Dark Mode Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12E7C1D329E97D0000FCAD32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12E7C20729E97D0000FCAD32 /* Icon.png in Resources */,
+				12E7C1DE29E97D0000FCAD32 /* LaunchScreen.storyboard in Resources */,
+				12E7C20529E97D0000FCAD32 /* Main.html in Resources */,
+				12E7C20B29E97D0000FCAD32 /* Script.js in Resources */,
+				12E7C20F29E97D0000FCAD32 /* Assets.xcassets in Resources */,
+				12E7C1E129E97D0000FCAD32 /* Main.storyboard in Resources */,
+				12E7C20929E97D0000FCAD32 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12E7C1E529E97D0000FCAD32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12E7C20829E97D0000FCAD32 /* Icon.png in Resources */,
+				12E7C20A29E97D0000FCAD32 /* Style.css in Resources */,
+				12E7C1ED29E97D0000FCAD32 /* Main.storyboard in Resources */,
+				12E7C20C29E97D0000FCAD32 /* Script.js in Resources */,
+				12E7C21029E97D0000FCAD32 /* Assets.xcassets in Resources */,
+				12E7C20629E97D0000FCAD32 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12E7C1F229E97D0000FCAD32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12E7C22C29E97D0000FCAD32 /* content.js in Resources */,
+				12E7C22B29E97D0000FCAD32 /* manifest.json in Resources */,
+				12E7C22A29E97D0000FCAD32 /* styles.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12E7C1FC29E97D0000FCAD32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12E7C22929E97D0000FCAD32 /* content.js in Resources */,
+				12E7C22829E97D0000FCAD32 /* manifest.json in Resources */,
+				12E7C22729E97D0000FCAD32 /* styles.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12E7C1D129E97D0000FCAD32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12E7C20D29E97D0000FCAD32 /* ViewController.swift in Sources */,
+				12E7C1D929E97D0000FCAD32 /* AppDelegate.swift in Sources */,
+				12E7C1DB29E97D0000FCAD32 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12E7C1E329E97D0000FCAD32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12E7C20E29E97D0000FCAD32 /* ViewController.swift in Sources */,
+				12E7C1EA29E97D0000FCAD32 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12E7C1F029E97D0000FCAD32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12E7C21129E97D0000FCAD32 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12E7C1FA29E97D0000FCAD32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12E7C21229E97D0000FCAD32 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12E7C1F729E97D0000FCAD32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12E7C1F329E97D0000FCAD32 /* Duolingo Dark Mode Extension (iOS) */;
+			targetProxy = 12E7C1F629E97D0000FCAD32 /* PBXContainerItemProxy */;
+		};
+		12E7C20129E97D0000FCAD32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12E7C1FD29E97D0000FCAD32 /* Duolingo Dark Mode Extension (macOS) */;
+			targetProxy = 12E7C20029E97D0000FCAD32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		12E7C1C829E97CFF00FCAD32 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12E7C1C929E97CFF00FCAD32 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		12E7C1DC29E97D0000FCAD32 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12E7C1DD29E97D0000FCAD32 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		12E7C1DF29E97D0000FCAD32 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12E7C1E029E97D0000FCAD32 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		12E7C1EB29E97D0000FCAD32 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12E7C1EC29E97D0000FCAD32 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12E7C21329E97D0000FCAD32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		12E7C21429E97D0000FCAD32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		12E7C21629E97D0000FCAD32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Duolingo Dark Mode Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Duolingo-Dark-Mode.Extension";
+				PRODUCT_NAME = "Duolingo Dark Mode Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		12E7C21729E97D0000FCAD32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Duolingo Dark Mode Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Duolingo-Dark-Mode.Extension";
+				PRODUCT_NAME = "Duolingo Dark Mode Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12E7C21A29E97D0000FCAD32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Duolingo Dark Mode";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Duolingo-Dark-Mode";
+				PRODUCT_NAME = "Duolingo Dark Mode";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		12E7C21B29E97D0000FCAD32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Duolingo Dark Mode";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Duolingo-Dark-Mode";
+				PRODUCT_NAME = "Duolingo Dark Mode";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12E7C21D29E97D0000FCAD32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Duolingo Dark Mode.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Duolingo Dark Mode Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Duolingo-Dark-Mode.Extension";
+				PRODUCT_NAME = "Duolingo Dark Mode Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		12E7C21E29E97D0000FCAD32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Duolingo Dark Mode.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Duolingo Dark Mode Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Duolingo-Dark-Mode.Extension";
+				PRODUCT_NAME = "Duolingo Dark Mode Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		12E7C22129E97D0000FCAD32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Duolingo Dark Mode.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Duolingo Dark Mode";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Duolingo-Dark-Mode";
+				PRODUCT_NAME = "Duolingo Dark Mode";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		12E7C22229E97D0000FCAD32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Duolingo Dark Mode.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Duolingo Dark Mode";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Duolingo-Dark-Mode";
+				PRODUCT_NAME = "Duolingo Dark Mode";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12E7C1C529E97CFF00FCAD32 /* Build configuration list for PBXProject "Duolingo Dark Mode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12E7C21329E97D0000FCAD32 /* Debug */,
+				12E7C21429E97D0000FCAD32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12E7C21529E97D0000FCAD32 /* Build configuration list for PBXNativeTarget "Duolingo Dark Mode Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12E7C21629E97D0000FCAD32 /* Debug */,
+				12E7C21729E97D0000FCAD32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12E7C21929E97D0000FCAD32 /* Build configuration list for PBXNativeTarget "Duolingo Dark Mode (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12E7C21A29E97D0000FCAD32 /* Debug */,
+				12E7C21B29E97D0000FCAD32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12E7C21C29E97D0000FCAD32 /* Build configuration list for PBXNativeTarget "Duolingo Dark Mode Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12E7C21D29E97D0000FCAD32 /* Debug */,
+				12E7C21E29E97D0000FCAD32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12E7C22029E97D0000FCAD32 /* Build configuration list for PBXNativeTarget "Duolingo Dark Mode (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12E7C22129E97D0000FCAD32 /* Debug */,
+				12E7C22229E97D0000FCAD32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12E7C1C229E97CFF00FCAD32 /* Project object */;
+}
